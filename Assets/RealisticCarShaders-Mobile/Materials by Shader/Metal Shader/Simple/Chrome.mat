@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Chrome
+  m_Shader: {fileID: 4800000, guid: 6dd929e5fb224f94293a6ed06403c5e0, type: 3}
+  m_ShaderKeywords: Cubemap_T
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cube:
+        m_Texture: {fileID: 8900000, guid: 8446d4454693a684d930860d6545eba0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DiffuseBumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FlakeTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: c4b2c4174352708458b80578efeca3fa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RenderedTexture:
+        m_Texture: {fileID: 8400000, guid: 260919d7b1d70184bb7119ae804cfcd3, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpDens: 1
+    - _CandyPower: 0
+    - _CandyScale: 0
+    - _DiffuseUVScale: 1
+    - _FlakeDens: 1
+    - _FresnelPower: 0.66
+    - _FresnelScale: 2
+    - _MetalIntensity: 1.37
+    - _MetalScale: 3.13
+    - _MetalicPower: 4.4
+    - _MetalicScale: 1.71
+    - _RefIntensity: 2
+    - _RefVisibility: 0.1
+    - _Reflect: 0.24038462
+    - _ShadowIntensity: 0.48076925
+    - _Shininess: 2
+    - _ShininessIntensity: 0.342
+    - _ShininessScale: 0
+    m_Colors:
+    - _AmbientColor: {r: 1, g: 1, b: 1, a: 1}
+    - _AmbientColor2: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.47794116, g: 0.47794116, b: 0.47794116, a: 1}
+    - _DecalColor: {r: 1, g: 1, b: 1, a: 1}
+    - _ReflectionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SpecColor: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1002 &2100001
+EditorExtensionImpl:
+  serializedVersion: 6

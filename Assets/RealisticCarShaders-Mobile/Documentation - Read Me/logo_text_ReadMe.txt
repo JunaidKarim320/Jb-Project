@@ -1,0 +1,1 @@
+You can include logo_text.png in your game's intro or loading screen to show your customers that you're using "Realistic Car Shaders - Mobile" Unity asset.

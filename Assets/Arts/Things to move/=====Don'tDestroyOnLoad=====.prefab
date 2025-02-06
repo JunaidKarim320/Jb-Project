@@ -1,0 +1,197 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4670718718530729152
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4670718718530729156}
+  - component: {fileID: 4670718718530729157}
+  - component: {fileID: 4670718718530729154}
+  - component: {fileID: 4670718718530729155}
+  m_Layer: 0
+  m_Name: =====Don'tDestroyOnLoad=====
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &4670718718530729156
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4670718718530729152}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4670718720317267025}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4670718718530729157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4670718718530729152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dff331b7ebb24745a4fddd7c54f256e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4670718718530729154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4670718718530729152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de91ec3e98445f94f98d91e09c4ea287, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4670718718530729155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4670718718530729152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f7f4135f214fa446bf47f29c8121c19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OneMillion: 0
+--- !u!1 &4670718720317267034
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4670718720317267025}
+  - component: {fileID: 4670718720317267038}
+  - component: {fileID: 4670718720317267039}
+  - component: {fileID: 4670718720317267036}
+  - component: {fileID: 4670718720317267037}
+  m_Layer: 0
+  m_Name: AdsController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4670718720317267025
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4670718720317267034}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1037.8313, y: 585.2472, z: 2.81671}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4670718718530729156}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4670718720317267038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4670718720317267034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3fd0658bb4eb0f48aef54ec1a7fb5bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AppId: ca-app-pub-5282887891195220~4289929297
+  _appOpenAdUnitIdLowPriority: ca-app-pub-5282887891195220/9495575394
+  _bannerAdUnitIdLeftLowPriority: ca-app-pub-5282887891195220/4953657169
+  _bannerAdUnitIdRightLowPriority: 
+  _largeBannerLeftAdUnitIdLowPriority: ca-app-pub-5282887891195220/2802174538
+  _largeBannerRightAdUnitIdLowPriority: ca-app-pub-5282887891195220/2738595358
+  _interstitialAdIdUnitIdLowPriority: ca-app-pub-5282887891195220/1472194265
+  _rewardedInterstitialAdIdLowPriority: ca-app-pub-5282887891195220/5779691667
+  _rewardedVideoAdIdUnitIdLowPriority: ca-app-pub-5282887891195220/7388248815
+  UnityId: 
+  Unity_Interstitial_ID: 
+  Unity_RewardedVideo: 
+  EnableUnityTestAds: 0
+  gameplay: 0
+  showDebugs: 0
+  enableAds: 0
+  SecondSmallBanner: 0
+  SecondLargeBanner: 0
+  EnableUnityAds: 0
+  _remoteConfigScript: {fileID: 4670718720317267037}
+  _consentController: {fileID: 4670718720317267039}
+--- !u!114 &4670718720317267039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4670718720317267034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc6ad643c6012c44d93240a51aab84b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _privacyButton: {fileID: 0}
+  _errorPopup: {fileID: 0}
+  _errorText: {fileID: 0}
+--- !u!114 &4670718720317267036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4670718720317267034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f25869c74882c4942ae6c3d328c41c3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  environment: production
+--- !u!114 &4670718720317267037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4670718720317267034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06fe0627a07b7374494a610a2ae94464, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enableAds: 0
+  SecondSmallBanner: 0
+  SecondLargeBanner: 0
+  EnableUnityAds: 0
+  EnableTestAds: 1
+  _appOpenAdUnitIdLowPriority: 
+  _bannerAdUnitIdLeftLowPriority: 
+  _bannerAdUnitIdRightLowPriority: 
+  _largeBannerLeftAdUnitIdLowPriority: 
+  _largeBannerRightAdUnitIdLowPriority: 
+  _interstitialAdIdUnitIdLowPriority: 
+  _rewardedInterstitialAdIdLowPriority: 
+  _rewardedVideoAdIdUnitIdLowPriority: 
+  _consentController: {fileID: 4670718720317267039}
+  _admobAdsManager: {fileID: 4670718720317267038}
